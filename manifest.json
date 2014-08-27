@@ -1,0 +1,19 @@
+{
+  "name": "Keyboard Navigation",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Lets navigate webcomics and blogs with the keyboard",
+  "homepage_url": "http://google.com",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "bower_components/mousetrap/mousetrap.min.js",
+        "bower_components/jquery/dist/jquery.min.js",
+        "src/keyboard-navigation.js"
+      ]
+    }
+  ]
+}
